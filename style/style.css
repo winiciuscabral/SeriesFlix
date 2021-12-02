@@ -18,16 +18,25 @@ body {
     background-color: var(--black);
     font-family: 'Montserrat', sans-serif;
     color: var(--white);
+    overflow-x: hidden; 
 }
 
 .bg-series {
     background-image: url(../midia/got3.jpg);
     background-size: cover;
-    height: 620px;
+    height: 110vh;
 }
 
 .container{
     padding: 0 50px;
+}
+
+header .featured-video{
+    min-height: 620px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
 }
 
 header .container{
@@ -62,8 +71,10 @@ header .icons img {
 }
 
 main .container{
+    
     display: block;
     margin-top:70px;
+    margin-bottom: 165px;
     width: 65%
 }
 
@@ -116,3 +127,53 @@ main .info{
     background-color: #00000073;
 }
 
+section .category{
+    display: block;
+    z-index: 1;
+}
+
+section .slide{
+
+    padding-left: 50px;
+}
+
+section .slide-single{
+    margin: 15px 5px 15px 0px;
+}
+
+section .slide-single:hover{
+    transform: scale(2, 2);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+}
+
+section .scrolling img{
+    width: 4%; 
+    opacity: 0.02;
+}
+
+section .arrow-prev{
+    position: relative;
+    bottom: 110px;
+    left: 3em;
+    z-index: 2;
+}
+section .arrow-next{
+    position: relative;
+    bottom: 110px;
+    left: 91%;
+    z-index: 3;
+}
+
+section .scrolling img:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    
+}
+
+section .slide-single:hover{
+    transform: scale(1.1, 1.2);
+    transition: 1s;
+} 

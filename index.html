@@ -7,10 +7,15 @@
     <title>Série Flix</title>
     <!--CSS-->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
     <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- JavaScript-->
-    <script src="js/setup.js" defer></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+    <script src="js/main.js" defer></script>
     
 </head>
 <body>
@@ -33,6 +38,12 @@
                     <img class="user" src="midia/user-arrow.png" alt="">
                 </div>
             </div>
+
+            <!--
+            <div class="featured">
+                <video autoplay muted loop  class="featured-video"src="midia/got-video.mp4" type= video/mp4></video>
+            </div>
+            -->
         </header>
 
         <main>
@@ -56,21 +67,90 @@
             </div>
         </main>
 
-        <div class="carousel">
-            <div class="slide" id="img">
-                <img src="midia/got.jpg" alt="">
-                <img src="midia/got.jpg" alt="">
-                <img src="midia/got.jpg" alt="">
-                <img src="midia/got.jpg" alt="">
-                <img src="midia/got.jpg" alt="">
-                <img src="midia/got.jpg" alt="">
-                <img src="midia/got.jpg" alt="">
-                <img src="midia/got.jpg" alt="">
+        <section class="category">
+            <h2 class="container">Em alta</h2>
+            <div class="slide">
+                <img  class="slide-single" src="midia/got.jpg" alt="">
+                <img  class="slide-single" src="midia/got1.jpg" alt="">
+                <img  class="slide-single" src="midia/got2.jpg" alt="">
+                <img  class="slide-single" src="midia/got.jpg" alt="">
+                <img  class="slide-single" src="midia/got1.jpg" alt="">
+                <img  class="slide-single" src="midia/got2.jpg" alt="">
             </div>
-        </div>
-    <footer>
 
-    </footer>
+            <div class="scrolling">
+                <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                <img class="arrow-next" src="midia/arrow-next.png" alt="">
+            </div>
+        </section>
 
+        <section class="category">
+            <h2 class="container">Em alta</h2>
+            <div class="slide">
+                <img  class="slide-single" src="midia/got.jpg" alt="">
+                <img  class="slide-single" src="midia/got1.jpg" alt="">
+                <img  class="slide-single" src="midia/got2.jpg" alt="">
+                <img  class="slide-single" src="midia/got.jpg" alt="">
+                <img  class="slide-single" src="midia/got1.jpg" alt="">
+                <img  class="slide-single" src="midia/got2.jpg" alt="">
+            </div>
+
+            <div class="scrolling">
+                <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                <img class="arrow-next" src="midia/arrow-next.png" alt="">
+            </div>
+        </section>
+
+        <section class="category">
+            <h2 class="container">Em alta</h2>
+            <div class="slide">
+                <img  class="slide-single" src="midia/got.jpg" alt="">
+                <img  class="slide-single" src="midia/got1.jpg" alt="">
+                <img  class="slide-single" src="midia/got2.jpg" alt="">
+                <img  class="slide-single" src="midia/got.jpg" alt="">
+                <img  class="slide-single" src="midia/got1.jpg" alt="">
+                <img  class="slide-single" src="midia/got2.jpg" alt="">
+            </div>
+
+            <div class="scrolling">
+                <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                <img class="arrow-next" src="midia/arrow-next.png" alt="">
+            </div>
+        </section>
+
+        <section class="category">
+            <h2 class="container">Em alta</h2>
+            <div class="slide">
+                <img  class="slide-single" src="midia/got.jpg" alt="">
+                <img  class="slide-single" src="midia/got1.jpg" alt="">
+                <img  class="slide-single" src="midia/got2.jpg" alt="">
+                <img  class="slide-single" src="midia/got.jpg" alt="">
+                <img  class="slide-single" src="midia/got1.jpg" alt="">
+                <img  class="slide-single" src="midia/got2.jpg" alt="">
+            </div>
+
+            <div class="scrolling">
+                <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                <img class="arrow-next" src="midia/arrow-next.png" alt="">
+            </div>
+        </section>
+
+        <footer>
+            <div class="social">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+    
+            <div class="info">
+                <ul>
+                    <li>Idioma e Legenda</li>
+                    <li>Sugestões</li>
+                    <li>Relatório</li>
+                    <li>Assine</li>
+                </ul>
+            </div>
+        </footer>
+    </section>  
 </body>
 </html>
