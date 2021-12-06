@@ -4,8 +4,7 @@ $(function() {
         infinite: true,
         slidesToShow: 5, 
         slidesToScroll: 1,
-        leftMode: true,
-        prevArrow: $(".arrow-prev"), 
+        prevArrow: $(".arrow-prev"),
         nextArrow: $(".arrow-next"),
         responsive: [
             {
@@ -17,14 +16,8 @@ $(function() {
             }
         ]
     });
-
-    $(".slide-single").hover(function(){
-        $(this).css("z-index", "1000");
-    })
-
-    $(".slide-single").mouseout(function(){
-        $(this).css("z-index", "0");
-    })
-
 })
+
+// prevArrow: $(".arrow-prev"), 
+        //nextArrow: $(".arrow-next"),
 
