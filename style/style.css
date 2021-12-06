@@ -45,7 +45,6 @@ header .featured-video{
     position: absolute;
     left: 0;
     top: 0;
-
 }
 
 header .container{
@@ -97,21 +96,11 @@ main .container{
     width: 65%
 }
 
-main .type-video{
-    display: flex;
-}
-
 main .type-video img{
     width: 5%;
     padding-right: 2px;
     padding-bottom: 10px;
 }
-
-main .type-video h2{
-    font-size: 1em;
-    font-weight: 400;
-}
-
 
 main .title-video img{
     width: 250px;
@@ -267,5 +256,79 @@ footer p{
     header nav a{
         display: none;
     }
+
+    main .container{
+        width: 90%;
+    }
+
+    main button{
+        flex-direction: row;
+        height: 35px;
+        width: 200px;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 500px){
+
+    header .logo{
+        width: 120px;
+    }
+
+    header .icons img {
+        height: 20px;
+    }
+
+    main .container{
+        width: 100%;
+        margin: auto;
+    }
+
+    main .type-video img{
+        width: 9%;
+        padding-right: 2px;
+        padding-top: 30px;
+    }
+
+    main .title-video img{
+        width: 220px;
+        margin: auto;
+    }
+
+    main .text-video p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    main button{
+        height: 35px;
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    section .category{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    footer{
+        width: 50%;
+        margin: 0;
+    }
+
+    footer .info ul{
+        font-size: 9px;
+        padding-right: 15%;
+    }
+
+    footer .info-footer {
+        width: 300px;
+        margin-right: 5%;
+    }
+
+
 }
 
