@@ -79,6 +79,15 @@ header .icons img {
     cursor: pointer;
 }
 
+header a:hover{
+    color:#ffffff9f;
+    transition: 0.3s;
+}
+
+header .icons .menu{
+    display: flex;
+    list-style: none;
+}
 
 main .container{
     
@@ -128,6 +137,10 @@ main button{
     cursor: pointer;
 }
 
+main .play:hover{
+    background-color: #ffffffbd;
+}
+
 main i{
     width: 20px;
     margin-right: 5px;
@@ -135,7 +148,11 @@ main i{
 
 main .i{
     color: white;
-    background-color: #00000073;
+    background-color: #ffffff3b;
+}
+
+main .i:hover{
+    background-color: #ffffff1f !important;transition: 1s;
 }
 
 section .category{
@@ -244,4 +261,11 @@ footer p{
     padding-bottom: 5%;
 }
 
+/* RESPOSIVE */
+
+@media (max-width: 760px){
+    header nav a{
+        display: none;
+    }
+}
 
